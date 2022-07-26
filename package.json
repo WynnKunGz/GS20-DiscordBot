@@ -1,0 +1,26 @@
+{
+  "name": "gs20-discordbot",
+  "version": "0.0.1",
+  "description": "Official GS20 Discord Bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo Build Successful",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WynnKunGz/GS20-DiscordBot.git"
+  },
+  "author": "WynnKunGz",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/WynnKunGz/GS20-DiscordBot/issues"
+  },
+  "homepage": "https://github.com/WynnKunGz/GS20-DiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  }
+}
