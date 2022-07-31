@@ -3,26 +3,24 @@
 
 // module.exports = {
 //       name: 'giftedscience',
-//       aliases: ['gs20', 'gs', 'list'],
-//       description: 'Gifted Science Command',
+//       aliases : ['gs'],
+//       description: 'Gifted Science 20 Members',
 //       args: true,
 
-//     if(message.content.startsWith(prefix)) {
-//         const args = message.content.slice(prefix.length).trim().split(/ +/);
-//         const command = args.shift().toLowerCase();
-//         if(!client.commands.has(command)) return;
-
-//         if (command === 'args') {
-//             if (args[0] === 'cat') {
-
-//         }
-//     }
-// }
 //       async run(client, message, args) {
 //          const giftedscience = new Discord.MessageEmbed()
 //          .setColor('RANDOM')
 //          .setTitle('Gifted Science 20 Members')
 //          .setAuthor('Quantum x GS20')
-//          .setDescription('Full List of Gifted Science 20 Members')
-//       }
-// }
+//          .setDescription('List of Gifted Science 20 Members')
+//          .addFields(
+
+//          )
+//          .setTimestamp()
+//          .setFooter(`Quantum x GS20 | Version ${version} | By Wynn & Porsche`);
+
+//          message.channel.send(giftedscience);
+//       },
+// };
+
+// console.log('GIFTEDSCIENCE command is ready!');

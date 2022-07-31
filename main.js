@@ -21,7 +21,7 @@ for (const file of commandFiles) {
 
 client.on('error', console.error);
 
-client.on('ready', () => {
+client.once('ready', () => {
    console.log('============================================');
    console.log('All commands are now registered and ready!');
    console.log('I\'m Online!');
@@ -40,23 +40,14 @@ client.on('message', async message => {
    if(message.content.startsWith(prefix)) {
          const args = message.content.slice(prefix.length).trim().split(/ +/);
          const command = args.shift().toLowerCase();
-         const aliases = client.commands.get(command)
-            || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(command));
-
-         if(!aliases) return;
          if(!client.commands.has(command)) return;
-
-         if (command === 'args') {
-            if(!args.length) {
-               return message.channel.send(`You forgot to put Argument, ${message.author}!`);
-            }
-         }
 
          try {
             client.commands.get(command).run(client, message, args);
          }
          catch (error) {
             console.error(error);
+            message.reply('There was a problem executing that command!');
          }
    }
 });
