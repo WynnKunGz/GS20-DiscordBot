@@ -14,7 +14,7 @@
 //          .setAuthor('Quantum x GS20')
 //          .setDescription('List of Gifted Science 20 Members')
 //          .addFields(
-
+//             args,
 //          )
 //          .setTimestamp()
 //          .setFooter(`Quantum x GS20 | Version ${version} | By Wynn & Porsche`);

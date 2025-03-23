@@ -17,7 +17,7 @@ module.exports = {
             .setTimestamp()
             .setFooter(`Quantum x GS20 | Version ${version} | By Wynn & Porsche`);
 
-            message.channel.send(quantum);
+            message.channel.send({ embeds : [ quantum ] });
       },
 };
 
