@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Client, IntentsBitField } = require('discord.js');
 const client = new Client({
    intents: [
@@ -19,17 +20,11 @@ const client = new Client({
       // 'DirectMessageTyping',
    ],
 });
-const { token } = require('../config.json');
-const { name } = require('../package.json');
-const { version } = require('../package.json');
-const { description } = require('../package.json');
-const { author } = require('../package.json');
-const { main } = require('../package.json');
-const { license } = require('../package.json');
+
+const eventHandler = require('./handlers/eventHandler');
 // const { readdirSync } = require('fs');
 // const { join } = require('path');
 // client.commands = new Discord.Collection();
-// const prefix = 'q.';
 
 // const commandFiles = readdirSync(join(__dirname, 'commands')).filter(file => file.endsWith('.js'));
 
@@ -38,22 +33,44 @@ const { license } = require('../package.json');
 //    client.commands.set(command.name, command);
 // }
 
-// client.on('error', console.error);
+   // client.on('interactionCreate', (interaction) => {
+   //    if (!interaction.isChatInputCommand()) {
+   //       return;
+   //    }
+   //    if (interaction.commandName === 'ping') {
+   //       const pingEmbed = new EmbedBuilder()
+   //       .setTitle('Pong!')
+   //       .setAuthor({ name : 'Quantum x GS20' })
+   //       .setDescription(`🏓\`${Date.now() - interaction.createdTimestamp} ms\``)
+   //       .setColor(0xD64040)
+   //       .setTimestamp()
+   //       .setFooter({ text : `Quantum x GS20 | Version ${version} | By Wynn & Porsche` });
 
-client.once('ready', (c) => {
-   console.log('============================================');
-   console.log('All commands are now registered and ready!');
-   console.log(`${c.user.username} is now online!`);
-   console.log(`Name : ${name}`);
-   console.log(`Version : ${version}`);
-   console.log(`Description : ${description}`);
-   console.log(`Author : ${author}`);
-   console.log(`Main File : ${main}`);
-   console.log(`License : ${license}`);
-   client.user.setActivity('q.help', { type : 'LISTENING' });
-});
+   //       interaction.reply({ embeds: [pingEmbed] });
+   //    }
+   //    if (interaction.commandName === 'giftedscience') {
+   //       const membername = interaction.options.get('nickname').value;
 
-// client.on('message', async message => {
+   //       interaction.reply();
+   //    }
+   // });
+
+   // client.on('messageCreate', (message) => {
+   //    if (message.content === 'q.ping') {
+   //       const pingEmbed = new EmbedBuilder()
+   //       .setTitle('Pong!')
+   //       .setAuthor({ name : 'Quantum x GS20' })
+   //       .setDescription(`🏓\`${Date.now() - message.createdTimestamp} ms\``)
+   //       .setColor(0xD64040)
+   //       .setTimestamp()
+   //       .setThumbnail('https://i.imgur.com/DmvVFIh.jpeg')
+   //       .setFooter({ text : `Quantum x GS20 | Version ${version} | By Wynn & Porsche` });
+
+   //       message.channel.send({ embeds: [pingEmbed] });
+   //    }
+   // });
+
+// client.on('messageCreate',  (message) => {
 //    if(message.author.bot || message.channel.type === 'dm') return;
 
 //    if(message.content.startsWith(prefix)) {
@@ -71,4 +88,6 @@ client.once('ready', (c) => {
 //    }
 // });
 
-client.login(token);
+eventHandler(client);
+
+client.login(process.env.TOKEN);
