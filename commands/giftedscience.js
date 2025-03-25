@@ -1,26 +1,33 @@
-const Discord = require('discord.js');
-const { version } = require('../package.json');
+// const { EmbedBuilder } = require('discord.js');
+// const { version } = require('../../../package.json');
 
-module.exports = {
-      name: 'giftedscience',
-      aliases : ['gs'],
-      description: 'Gifted Science 20 Members',
-      args: true,
+// module.exports = {
+//    deleted: true,
+//    name: 'giftedscience',
+//    description: 'Gives our classmates\' basic information',
+//    devOnly: false,
+//    testOnly: true,
+//    options: [
+//       {
+//          name: 'mode',
+//          description: 'Choose between modes',
+//       }
+//    ]
 
-      async run(client, message, args) {
-         const giftedscience = new Discord.MessageEmbed()
-         .setColor('RANDOM')
-         .setTitle('Gifted Science 20 Members')
-         .setAuthor('Quantum x GS20')
-         .setDescription('List of Gifted Science 20 Members')
-         .addFields(
-            args,
-         )
-         .setTimestamp()
-         .setFooter(`Quantum x GS20 | Version ${version} | By Wynn & Porsche`);
+//       run(client, message, args) {
+//          const giftedscience = new Discord.MessageEmbed()
+//          .setColor('RANDOM')
+//          .setTitle('Gifted Science 20 Members')
+//          .setAuthor('Quantum x GS20')
+//          .setDescription('List of Gifted Science 20 Members')
+//          .addFields(
+//             args,
+//          )
+//          .setTimestamp()
+//          .setFooter(`Quantum x GS20 | Version ${version} | By Wynn & Porsche`);
 
-         message.channel.send(giftedscience);
-      },
-};
+//          message.channel.send(giftedscience);
+//       },
+// };
 
-console.log('GIFTEDSCIENCE command is ready!');
+// console.log('GIFTEDSCIENCE command is ready!');

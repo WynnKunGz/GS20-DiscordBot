@@ -1,9 +1,9 @@
 const { ApplicationCommandOptionType, PermissionFlagsBits } = require('discord.js');
 
 module.exports = {
-   deleted: false,
+   deleted: true,
    name: 'ban',
-   description: 'Bans a member from the server',
+   description: 'Bans a member [Use this one]',
    options : [
       {
          name: 'target-user',
@@ -32,4 +32,6 @@ module.exports = {
    },
 };
 
-console.log('BAN command is now ready!');
+if (!this.deleted) {
+   console.log('BAN command is now ready!');
+}

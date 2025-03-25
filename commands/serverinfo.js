@@ -13,7 +13,7 @@
 //          .setTitle('Server Information')
 //          .setThumbnail('https://cdn.discordapp.com/icons/973942925337706656/1f3faf280c03e18fa0c3c06ff007f51f.webp')
 //          .setAuthor('Quantum x GS20')
-//          .setDescription('เตรียมลิขิต GS20 Server Information')
+//          .setDescription('GS20 Server Information')
 //          .addFields(
 //             { name : 'Server Name', value : `${message.guild.name}` },
 //             { name : 'Total Members', value : `${message.guild.memberCount}` },

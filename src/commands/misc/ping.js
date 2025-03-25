@@ -1,28 +1,42 @@
+const { EmbedBuilder } = require('discord.js');
+const { version } = require('../../../package.json');
+
 module.exports = {
       name: 'ping',
-      description: 'Pong!',
-      // devOnly : Boolean,
-      // testOnly : Boolean,
+      description: 'Sends the ping. [Use this one]',
+      devOnly : false,
+      testOnly : true,
       // options: Object[],
-      // deleted: Boolean,
+      deleted: false,
 
-      callback: (client, interaction) => {
-            interaction.reply(`Pong! ${client.ws.ping} ms`);
+      callback: async (client, interaction) => {
+            await interaction.deferReply();
+            const reply = await interaction.fetchReply();
+            const ping = reply.createdTimestamp - interaction.createdTimestamp;
+
+            const pingEmbed = new EmbedBuilder()
+            .setTitle('Pong!')
+            .setAuthor({ name : 'Quantum x GS20' })
+            .addFields(
+                  {
+                        name: '🏓Client',
+                        value: `${ping} ms`,
+                        inline: true,
+                  },
+                  {
+                        name: 'Websocket',
+                        value: `${client.ws.ping} ms`,
+                        inline: true,
+                  },
+            )
+            .setColor(0xD64040)
+            .setTimestamp()
+            .setThumbnail('https://i.imgur.com/DmvVFIh.jpeg')
+            .setFooter({ text : `Quantum x GS20 | Version ${version} | By Wynn & Porsche` });
+
+            interaction.editReply({ embeds: [pingEmbed] });
       },
-      // const Discord = require('discord.js');
-      // const { version } = require('../../../package.json');
-
-      // async run(client, message) {
-      //       const ping = new Discord.MessageEmbed()
-      //       .setColor('RANDOM')
-      //       .setTitle('Pong!')
-      //       .setAuthor('Quantum x GS20')
-      //       .setDescription(`🏓\`${Date.now() - message.createdTimestamp} ms\``)
-      //       .setTimestamp()
-      //       .setFooter(`Quantum x GS20 | Version ${version} | By Wynn & Porsche`);
-
-      //       message.channel.send({ embeds : [ ping ], allowedMentions: { repliedUser: false } });
-      // },
 };
-
+if (!this.deleted) {
 console.log('PING command is now ready!');
+}
