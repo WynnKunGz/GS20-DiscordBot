@@ -32,6 +32,6 @@ module.exports = {
    },
 };
 
-if (!this.deleted) {
+if (this.deleted === false) {
    console.log('BAN command is now ready!');
 }

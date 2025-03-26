@@ -6,8 +6,8 @@ module.exports = {
       description: 'Sends the ping. [Use this one]',
       devOnly : false,
       testOnly : true,
-      // options: Object[],
       deleted: false,
+      // options: Object[],
 
       callback: async (client, interaction) => {
             await interaction.deferReply();
@@ -37,6 +37,3 @@ module.exports = {
             interaction.editReply({ embeds: [pingEmbed] });
       },
 };
-if (!this.deleted) {
-console.log('PING command is now ready!');
-}
