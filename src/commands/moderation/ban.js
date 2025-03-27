@@ -31,7 +31,3 @@ module.exports = {
       interaction.reply(`Banning... ${client.name}`);
    },
 };
-
-if (this.deleted === false) {
-   console.log('BAN command is now ready!');
-}

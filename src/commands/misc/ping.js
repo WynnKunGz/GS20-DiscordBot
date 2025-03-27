@@ -16,7 +16,7 @@ module.exports = {
 
             const pingEmbed = new EmbedBuilder()
             .setTitle('Pong!')
-            .setAuthor({ name : 'Quantum x GS20' })
+            .setAuthor({ name : 'GS20' })
             .addFields(
                   {
                         name: '🏓Client',
@@ -32,7 +32,7 @@ module.exports = {
             .setColor(0xD64040)
             .setTimestamp()
             .setThumbnail('https://i.imgur.com/DmvVFIh.jpeg')
-            .setFooter({ text : `Quantum x GS20 | Version ${version} | By Wynn & Porsche` });
+            .setFooter({ text : `GS20 | Version ${version} | By Wynn & Porsche` });
 
             interaction.editReply({ embeds: [pingEmbed] });
       },

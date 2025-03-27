@@ -3,15 +3,15 @@ const { version } = require('../../../package.json');
 
 module.exports = {
       name: 'help',
-      description: 'Help Command',
+      description: 'Help!',
       devOnly: false,
       testOnly: true,
 
       callback: async (client, interaction) => {
          const helpEmbed = new EmbedBuilder()
-         .setColor('Random')
+         .setColor(0x4295ED)
          .setTitle('Help!')
-         .setAuthor('Quantum x GS20')
+         .setAuthor({ name : 'GS20' })
          .setDescription('Commands List')
          .addFields(
             {
@@ -36,17 +36,24 @@ module.exports = {
             },
             {
                name : '5. giftedscience',
-               value : 'Sends a full list of Gifted Science 20 Members',
+               value : 'Sends information of Gifted Science 20 Members',
                inline : true,
+            },
+            {
+               name: '6. giftedsciencehelp',
+               value: 'Sends a full list of available GS20 members to query in the giftedscience command.',
+               inline: false,
+            },
+            {
+               name: '7. events',
+               value: 'Shows a full list of scheduled events in this server',
+               inline: false,
             },
          )
          .setTimestamp()
          .setThumbnail('https://i.imgur.com/DmvVFIh.jpeg')
-         .setFooter(`Quantum x GS20 | Version ${version} | By Wynn & Porsche`);
+         .setFooter({ text: `GS20 | Version ${version} | By Wynn & Porsche` });
 
          interaction.reply({ embeds : [ helpEmbed ] });
       },
 };
-if (!this.deleted) {
-console.log('HELP command is ready!');
-}

@@ -1,7 +1,9 @@
 # GS20-DiscordBot
 
-## Features
-- 
+## Requirements
+- discord.js v.14.18.0 +
+- Node.js v.22.14.0 +
+- dotenv v.16.4.7 +
 
 Custom Discord Bot for GS20's Discord Server
 
