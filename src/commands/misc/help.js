@@ -46,7 +46,7 @@ module.exports = {
             },
             {
                name: '7. events',
-               value: 'Shows a full list of scheduled events in this server',
+               value: 'Shows a full list of scheduled events in this server [Under development]',
                inline: false,
             },
          )

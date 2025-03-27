@@ -4,7 +4,7 @@ const { version } = require('../../../package.json');
 module.exports = {
   name: 'events',
   description: 'Scheduled Events',
-  deleted: false,
+  deleted: true,
   devOnly: false,
   testOnly: true,
 
