@@ -1,4 +1,4 @@
-const { devs, serverGiftedScience } = require('../../../config.json');
+const { devs, serverGiftedScience } = require('../../config.json');
 const getLocalCommands = require('../../utils/getLocalCommands');
 
 module.exports = async (client, interaction) => {

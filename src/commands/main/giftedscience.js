@@ -28,7 +28,7 @@ module.exports = {
          .setColor(0xC26DDE)
          .setTitle('Gifted Science 20 Members')
          .setAuthor({ name : 'GS20' })
-         .setDescription('Information of Gifted Science 20 Members, Correct as of April 21st, 2025.')
+         .setDescription('Information of Gifted Science 20 Members, Correct as of June 16th, 2025.')
          .addFields(
             {
                name: 'ชื่อ-นามสกุล',
