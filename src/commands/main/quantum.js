@@ -6,7 +6,7 @@ module.exports = {
       description: 'Sends a link to Carrd website',
       deleted: false,
       devOnly: false,
-      testOnly: true,
+      GSOnly: true,
 
       callback: async (client, interaction) => {
             const quantumEmbed = new EmbedBuilder()

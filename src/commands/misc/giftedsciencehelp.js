@@ -5,7 +5,7 @@ module.exports = {
       name: 'giftedsciencehelp',
       description: 'Help for the giftedscience command',
       devOnly: false,
-      testOnly: true,
+      GSOnly: true,
       deleted: false,
 
       callback: async (client, interaction) => {

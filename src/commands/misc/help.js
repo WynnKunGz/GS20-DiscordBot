@@ -5,7 +5,7 @@ module.exports = {
       name: 'help',
       description: 'Help!',
       devOnly: false,
-      testOnly: true,
+      GSOnly: false,
 
       callback: async (client, interaction) => {
          const helpEmbed = new EmbedBuilder()

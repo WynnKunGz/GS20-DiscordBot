@@ -6,7 +6,7 @@ module.exports = {
   description: 'Scheduled Events',
   deleted: true,
   devOnly: false,
-  testOnly: true,
+  GSOnly: false,
 
   callback: (client, interaction) => {
     if(!interaction.inGuild()) {

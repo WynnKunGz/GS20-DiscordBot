@@ -5,7 +5,8 @@
       "nickname" : "ต้นข้าว",
       "instagram": "kk_tonkaw",
       "birthday" : "3 ธ.ค. 2550",
-      "university" : "TBD"
+      "university" : "MED SI",
+      "age" : "17"
    },
    {
       "id" : "ข้าวป้าง",
@@ -13,7 +14,8 @@
       "nickname" : "ข้าวป้าง",
       "instagram" : "kaopangcb",
       "birthday" : "10 ต.ค. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "หมิว",
@@ -21,7 +23,8 @@
       "nickname" : "หมิว",
       "instagram" : "mmew_0kk",
       "birthday" : "20 เม.ย. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "19"
    },
    {
       "id" : "แพรดาว",
@@ -29,7 +32,8 @@
       "nickname" : "แพรดาว",
       "instagram" : "ppraedao",
       "birthday" : "16 ม.ค. 2550",
-      "university" : "TBD"
+      "university" : "MED SI",
+      "age" : "18"
    },
    {
       "id" : "แทม",
@@ -37,7 +41,8 @@
       "nickname" : "แทม",
       "instagram" : "thanatch.__",
       "birthday" : "16 ก.ย. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ใบตอง",
@@ -45,7 +50,8 @@
       "nickname" : "ใบตอง",
       "instagram" : "bbbluebaittt",
       "birthday" : "17 ก.ค. 2549",
-      "university" : "TBD"
+      "university" : "MED PSU",
+      "age" : "18"
    },
    {
       "id" : "จ๊ะจ๋า",
@@ -53,7 +59,8 @@
       "nickname" : "จ๊ะจ๋า",
       "instagram" : "pitchar_chio",
       "birthday" : "24 ส.ค. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "พีช",
@@ -61,7 +68,8 @@
       "nickname" : "พีช",
       "instagram" : "ppeachue",
       "birthday" : "22 พ.ค. 2550",
-      "university" : "MD CU"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ยูจิณ",
@@ -69,7 +77,8 @@
       "nickname" : "ยูจิณ",
       "instagram" : "punika.yujin",
       "birthday" : "8 ก.พ. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "โอปอล์",
@@ -77,7 +86,8 @@
       "nickname" : "โอปอล์",
       "instagram" : "opalptrr",
       "birthday" : "29 พ.ค. 2550",
-      "university" : "TBD"
+      "university" : "N/A",
+      "age" : "18"
    },
    {
       "id" : "น้ำว้า",
@@ -85,7 +95,8 @@
       "nickname" : "น้ำว้า",
       "instagram" : "numvapantit",
       "birthday" : "28 พ.ย. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "มายด์",
@@ -93,7 +104,8 @@
       "nickname" : "มายด์",
       "instagram" : "yourssmind",
       "birthday" : "6 ก.ค. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "17"
    },
    {
       "id" : "หลิง",
@@ -101,7 +113,8 @@
       "nickname" : "หลิง",
       "instagram" : "apr.ling",
       "birthday" : "17 พ.ย. 2549",
-      "university" : "TBD"
+      "university" : "ISE CU",
+      "age" : "18"
    },
    {
       "id" : "เอม",
@@ -109,7 +122,8 @@
       "nickname" : "เอม",
       "instagram" : "ssitzxrr",
       "birthday" : "24 มิ.ย. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ไอล่า",
@@ -117,7 +131,8 @@
       "nickname" : "ไอล่า",
       "instagram" : "aylaarkira",
       "birthday" : "20 ก.ย. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "17"
    },
    {
       "id" : "ดิว",
@@ -125,7 +140,8 @@
       "nickname" : "ดิว",
       "instagram" : "_drewery_",
       "birthday" : "15 ธ.ค. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ธาม",
@@ -133,7 +149,8 @@
       "nickname" : "ธาม",
       "instagram" : "kavinn_u",
       "birthday" : "8 ก.ค. 2549",
-      "university" : "MD CU"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "บัส",
@@ -141,7 +158,8 @@
       "nickname" : "บัส",
       "instagram" : "ktp._.bus",
       "birthday" : "1 ม.ค. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "กร",
@@ -149,7 +167,8 @@
       "nickname" : "กร",
       "instagram" : "kunakorn_kn_",
       "birthday" : "6 ก.ย. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ภีม",
@@ -157,7 +176,8 @@
       "nickname" : "ภีม",
       "instagram" : "pe_em.t",
       "birthday" : "25 ก.พ. 2550",
-      "university" : "MED SI"
+      "university" : "MED SI",
+      "age" : "18"
    },
    {
       "id" : "วินชนกันต์",
@@ -165,7 +185,8 @@
       "nickname" : "วิน",
       "instagram" : "wynnchanakant",
       "birthday" : "12 ส.ค. 2550",
-      "university" : "TBD"
+      "university" : "MED SI",
+      "age" : "17"
    },
    {
       "id" : "บีม",
@@ -173,7 +194,17 @@
       "nickname" : "บีม",
       "instagram" : "beammyjr",
       "birthday" : "21 ส.ค. 2549",
-      "university" : "TBD"
+      "university" : "BBA TU",
+      "age" : "18"
+   },
+   {
+      "id" : "นภ",
+      "fullName" : "นาย ณัฐวรรธน์ แสงสิทธิชัย",
+      "nickname" : "นภ",
+      "instagram" : "nuttawatnopx",
+      "birthday" : "27 พ.ย. 2549",
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "โฟร์",
@@ -181,7 +212,8 @@
       "nickname" : "โฟร์",
       "instagram" : "_four.qilin_",
       "birthday" : "31 ต.ค. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "เฟิร์ม",
@@ -189,7 +221,8 @@
       "nickname" : "เฟิร์ม",
       "instagram" : "thanafirm_",
       "birthday" : "21 ส.ค. 2549",
-      "university" : "TBD"
+      "university" : "MED SI",
+      "age" : "18"
    },
    {
       "id" : "ตี๋น้อย",
@@ -197,7 +230,8 @@
       "nickname" : "ตี๋น้อย",
       "instagram" : "tanatkorn_tn",
       "birthday" : "9 เม.ย. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ธรรม์",
@@ -205,7 +239,8 @@
       "nickname" : "ธรรม์",
       "instagram" : "tan_na_kub",
       "birthday" : "29 ต.ค. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "17"
    },
    {
       "id" : "ลิ้ม",
@@ -213,7 +248,8 @@
       "nickname" : "ลิ้ม",
       "instagram" : "lim._.t",
       "birthday" : "2 ม.ค. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ริว",
@@ -221,7 +257,8 @@
       "nickname" : "ริว",
       "instagram" : "nonpitpi",
       "birthday" : "17 พ.ย. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "วินปภาวิน",
@@ -229,7 +266,8 @@
       "nickname" : "วิน",
       "instagram" : "phapa.win",
       "birthday" : "16 พ.ค. 2550",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "เคนโด้",
@@ -237,7 +275,8 @@
       "nickname" : "เคนโด้",
       "instagram" : "kdwithmorelana",
       "birthday" : "30 พ.ย. 2549",
-      "university" : "TBD"
+      "university" : "MED CMU",
+      "age" : "18"
    },
    {
       "id" : "ต้น",
@@ -245,7 +284,8 @@
       "nickname" : "ต้น",
       "instagram" : "dumbassnamedton",
       "birthday" : "30 มี.ค. 2550",
-      "university" : "TBD"
+      "university" : "MED SI",
+      "age" : "18"
    },
    {
       "id" : "ป่าน",
@@ -253,7 +293,8 @@
       "nickname" : "ป่าน",
       "instagram" : "ppan_pss",
       "birthday" : "9 ก.ย. 2549",
-      "university" : "TBD"
+      "university" : "MED SI",
+      "age" : "18"
    },
    {
       "id" : "ปลื้ม",
@@ -261,7 +302,8 @@
       "nickname" : "ปลื้ม",
       "instagram" : "pp.purinp",
       "birthday" : "20 ธ.ค. 2549",
-      "university" : "TBD"
+      "university" : "MED SI",
+      "age" : "18"
    },
    {
       "id" : "พอร์ช",
@@ -269,7 +311,8 @@
       "nickname" : "พอร์ช",
       "instagram" : "pxrsche.eeee",
       "birthday" : "7 ต.ค. 2549",
-      "university" : "MED SI"
+      "university" : "MED SI",
+      "age" : "18"
    },
    {
       "id" : "แม็กซ์",
@@ -277,7 +320,8 @@
       "nickname" : "แม็กซ์",
       "instagram" : "mmaxwrs_",
       "birthday" : "24 ก.ย. 2549",
-      "university" : "MD CU"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ออโต้",
@@ -285,7 +329,8 @@
       "nickname" : "ออโต้",
       "instagram" : "ariautogrande",
       "birthday" : "25 ส.ค. 2549",
-      "university" : "TBD"
+      "university" : "DENT CU",
+      "age" : "18"
    },
    {
       "id" : "ออกัส",
@@ -293,7 +338,8 @@
       "nickname" : "ออกัส",
       "instagram" : "singha__august",
       "birthday" : "12 ส.ค. 2549",
-      "university" : "TBD"
+      "university" : "MD CU",
+      "age" : "18"
    },
    {
       "id" : "ศีล",
@@ -301,7 +347,8 @@
       "nickname" : "ศีล",
       "instagram" : "siravit_keeratipranon",
       "birthday" : "8 มี.ค. 2550",
-      "university" : "CCDS NTU Singapore"
+      "university" : "CCDS NTU Singapore",
+      "age" : "18"
    },
    {
       "id" : "พูห์",
@@ -309,7 +356,8 @@
       "nickname" : "พูห์",
       "instagram" : "pooh._ak",
       "birthday" : "11 ม.ค. 2550",
-      "university" : "TBD"
+      "university" : "MD RA",
+      "age" : "18"
    },
    {
       "id" : "นับ",
@@ -317,7 +365,8 @@
       "nickname" : "นับ",
       "instagram" : "nubb_65",
       "birthday" : "23 ส.ค. 2549",
-      "university" : "CEDT CU"
+      "university" : "CEDT CU",
+      "age" : "18"
    },
    {
       "id" : "น้ำ",
@@ -325,7 +374,8 @@
       "nickname" : "น้ำ",
       "instagram" : "nahmwarin_",
       "birthday" : "10 ก.ย. 2549",
-      "university" : "TBD"
+      "university" : "TABOR ACADEMY (USA) [WIWAT]",
+      "age" : "18"
    },
    {
       "id" : "ครีม",
@@ -333,7 +383,8 @@
       "nickname" : "ครีม",
       "instagram" : "ctwentythird",
       "birthday" : "23 มิ.ย. 2549",
-      "university" : "BBA CU"
+      "university" : "BBA CU",
+      "age" : "18"
    },
    {
       "id" : "โจฮัน",
@@ -341,6 +392,7 @@
       "nickname" : "โจฮัน",
       "instagram" : "joha.nn8519",
       "birthday" : "25 พ.ย. 2549",
-      "university" : "DEK69"
+      "university" : "DEK69 (TU85.5 GS20.5)",
+      "age" : "18"
    }
 ]

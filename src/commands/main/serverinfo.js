@@ -5,7 +5,7 @@ module.exports = {
       name: 'serverinfo',
       description: 'Sends the server\'s information',
       deleted: false,
-      testOnly: true,
+      GSOnly: false,
       devOnly: false,
 
       callback: async (client, interaction) => {

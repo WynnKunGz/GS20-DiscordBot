@@ -22,7 +22,7 @@ module.exports = async (client, interaction) => {
          }
       }
 
-      if (commandObject.testOnly) {
+      if (commandObject.GSOnly) {
          if (!(interaction.guild.id === serverGiftedScience)) {
             interaction.reply({
                content: 'This command cannot be run here.',

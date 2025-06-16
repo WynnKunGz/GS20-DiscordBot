@@ -6,7 +6,7 @@ module.exports = {
       description: 'Sends the user\'s information',
       deleted: false,
       devOnly: false,
-      testOnly: true,
+      GSOnly: false,
 
       callback: async (client, interaction) => {
         const { user, guild } = interaction;

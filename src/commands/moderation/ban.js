@@ -25,7 +25,7 @@ module.exports = {
       PermissionFlagsBits.Administrator,
    ],
    devOnly: true,
-   testOnly: true,
+   GSOnly: false,
 
    callback: (client, interaction) => {
       interaction.reply(`Banning... ${client.name}`);

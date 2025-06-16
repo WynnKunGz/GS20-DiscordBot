@@ -5,7 +5,7 @@ module.exports = {
       name: 'ping',
       description: 'Sends the ping. [Use this one]',
       devOnly : false,
-      testOnly : true,
+      GSOnly : false,
       deleted: false,
       // options: Object[],
 

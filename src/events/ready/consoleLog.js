@@ -3,7 +3,7 @@ const { ActivityType } = require('discord.js');
 
 module.exports = (client) => {
    console.log('HELP command is ready!');
-   console.log('PING command is now ready!');
+   console.log('PING command is ready!');
    console.log('GIFTEDSCIENCE command is ready!');
    console.log('GIFTEDSCIENCEHELP command is ready!');
    console.log('QUANTUM command is ready!');

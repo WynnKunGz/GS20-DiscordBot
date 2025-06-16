@@ -6,7 +6,7 @@ module.exports = {
    name: 'giftedscience',
    description: 'Gives our classmates\' basic information',
    devOnly: false,
-   testOnly: true,
+   GSOnly: true,
    deleted: false,
    options: [
       {
@@ -28,7 +28,7 @@ module.exports = {
          .setColor(0xC26DDE)
          .setTitle('Gifted Science 20 Members')
          .setAuthor({ name : 'GS20' })
-         .setDescription('Information of Gifted Science 20 Members')
+         .setDescription('Information of Gifted Science 20 Members, Correct as of April 21st, 2025.')
          .addFields(
             {
                name: 'ชื่อ-นามสกุล',
@@ -48,6 +48,11 @@ module.exports = {
             {
                name: 'วันเกิด',
                value: `${information.birthday}`,
+               inline: true,
+            },
+            {
+               name: 'อายุ',
+               value: `${information.age}`,
                inline: true,
             },
             {

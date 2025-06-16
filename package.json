@@ -1,6 +1,6 @@
 {
   "name": "gs20-discordbot",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Official GS20 Discord Bot",
   "main": "src/main.js",
   "scripts": {
